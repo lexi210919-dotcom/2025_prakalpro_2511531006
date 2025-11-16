@@ -20,7 +20,7 @@ public class TugasAlproPekan7_2511531006 {
         System.out.print("Masukkan Pin (6 digit): ");
         int pinAngka = input.nextInt();
 
-        Akun akun = new Akun(email, email, email, pinAngka);
+        Akun akun = new Akun(username, password, email, pinAngka);
 
         if (!akun.isEmailValid()) {
             System.out.println("\n--- REGISTRASI GAGAL ---");
